@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "IdentityService\IdentityService.csproj", "{BE6B0C46-10A2-4785-A624-E277D8607DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatalogService\CatalogService.csproj", "{8808F634-47D2-4A30-B4ED-56EC38F60C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{D0A64C68-81CB-4A35-AFC4-3B1E642232B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{63C4D058-EECA-4E70-94B6-5C2D14ABC3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{4FB5480E-1FC0-4321-9EB0-81480BCAF1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurchaseService", "Purchase Service\PurchaseService.csproj", "{A73E7463-AF24-437B-996F-CC438C68A60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{1285B56D-F8EC-447F-B602-8274186F9AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE6B0C46-10A2-4785-A624-E277D8607DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6B0C46-10A2-4785-A624-E277D8607DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6B0C46-10A2-4785-A624-E277D8607DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6B0C46-10A2-4785-A624-E277D8607DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8808F634-47D2-4A30-B4ED-56EC38F60C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8808F634-47D2-4A30-B4ED-56EC38F60C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8808F634-47D2-4A30-B4ED-56EC38F60C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8808F634-47D2-4A30-B4ED-56EC38F60C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A64C68-81CB-4A35-AFC4-3B1E642232B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A64C68-81CB-4A35-AFC4-3B1E642232B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A64C68-81CB-4A35-AFC4-3B1E642232B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A64C68-81CB-4A35-AFC4-3B1E642232B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C4D058-EECA-4E70-94B6-5C2D14ABC3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C4D058-EECA-4E70-94B6-5C2D14ABC3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C4D058-EECA-4E70-94B6-5C2D14ABC3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C4D058-EECA-4E70-94B6-5C2D14ABC3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB5480E-1FC0-4321-9EB0-81480BCAF1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB5480E-1FC0-4321-9EB0-81480BCAF1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB5480E-1FC0-4321-9EB0-81480BCAF1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB5480E-1FC0-4321-9EB0-81480BCAF1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73E7463-AF24-437B-996F-CC438C68A60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73E7463-AF24-437B-996F-CC438C68A60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73E7463-AF24-437B-996F-CC438C68A60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73E7463-AF24-437B-996F-CC438C68A60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1285B56D-F8EC-447F-B602-8274186F9AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1285B56D-F8EC-447F-B602-8274186F9AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1285B56D-F8EC-447F-B602-8274186F9AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1285B56D-F8EC-447F-B602-8274186F9AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA70DD86-A37E-446A-A4C4-22602CCDAFA5}
+	EndGlobalSection
+EndGlobal
