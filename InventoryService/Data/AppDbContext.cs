@@ -8,6 +8,7 @@ namespace InventoryService.Data
 {
     public class AppDbContext : DbContext
     {
+        public DbSet<Car> Cars { get; set; }
         public DbSet<CarInventory> CarInventories { get; set; }
         public DbSet<AdditionalInformation> AdditionalInformation { get; set; }
         public DbSet<Indicator> Indicator { get; set; }
