@@ -5,7 +5,7 @@ using System.Net;
 
 namespace InventoryService.Interfaces
 {
-    public interface IInventoryService
+    public interface IInventoryService 
     {
         //- POST /api/inventory/reserve - резервирование автомобиля
         //- POST /api/inventory/release - освобождение резервирования
@@ -16,7 +16,7 @@ namespace InventoryService.Interfaces
         Task<CarReserveResponse> ReserveAsync(CarReserveRequest carReserveRequest); 
         Task<List<CarReleaseResponse>> ReleaseAsync(CarReleaseRequest carReleaseRequest);
         Task<CarMarkSoldResponse?> MarkSoldAsync(CarMarkSoldRequest carMarkSoldRequest);
-        Task<AvailableResponse?> AvailableAsync(CarAvailableRequest CarAvailableRequest);
+        Task<AvailableResponse?> AvailableAsync();
         Task<CarInformationResponse?> InformationAsync(CarInformationRequest carInformationRequest);
     }
 }

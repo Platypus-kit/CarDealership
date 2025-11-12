@@ -17,10 +17,9 @@ namespace InventoryService.Repositories
             _context = context;
         }
 
-        public async Task<AvailableResponse?> AvailableAsync(CarAvailableRequest CarAvailableRequest)
+        public async Task<AvailableResponse?> AvailableAsync()
         {
-            //var carInventList = await _context.CarInventories.Where(status => status.Position.orderStatus == OrderStatus.Available).ToListAsync();
-            var carInventList = await _context.Cars.Where(car => car.Id == _context.CarInventories.FirstOrDefaultAsync(status => status.Position.orderStatus == OrderStatus.Available).Result.CarId).ToListAsync();//.ToListAsync();
+            return new AvailableResponse(await _context.CarInventories.Where(status => status.Position.OrderStatus == OrderStatus.Available).ToListAsync());
         }
 
         public async Task<CarInformationResponse?> InformationAsync(CarInformationRequest carInformationRequest)
@@ -59,7 +58,7 @@ namespace InventoryService.Repositories
             var reserveCar = await _context.CarInventories.FirstOrDefaultAsync(carInv => carInv.CarId == car.Id);
             if (reserveCar is null)
                 throw new ArgumentNullException(nameof(reserveCar));
-            reserveCar.Position.orderStatus = OrderStatus.Reserve;
+            reserveCar.Position.OrderStatus = OrderStatus.Reserve;
             await _context.SaveChangesAsync();
             return new CarReserveResponse(car);
         }

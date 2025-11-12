@@ -42,7 +42,7 @@ namespace InventoryService.Controllers
         [HttpGet("available")]
         public async Task<ActionResult<AvailableResponse>> GetAvailableCars([FromQuery] CarAvailableRequest request)
         {
-            var result = await _inventoryService.AvailableAsync(request);
+            var result = await _inventoryService.AvailableAsync();
             return Ok(result);          
         }
 
