@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record CanDeleteRoleRequest();
+    public record CanDeleteRoleRequest(Guid RoleId);
 }

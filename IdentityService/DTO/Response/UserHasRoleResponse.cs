@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record UserHasRoleResponse(bool hasRole);
+    public record UserHasRoleResponse(bool HasRole);
 }

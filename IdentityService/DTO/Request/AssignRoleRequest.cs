@@ -2,5 +2,5 @@
 
 namespace IdentityService.DTO.Request
 {
-    public record AssignRoleRequest(Guid userId, Role userRole);
+    public record AssignRoleRequest(Guid UserId, Role UserRole);
 }

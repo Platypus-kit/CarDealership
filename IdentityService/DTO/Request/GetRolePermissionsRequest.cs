@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record GetRolePermissionsRequest();
+    public record GetRolePermissionsRequest(Guid RoleId);
 }

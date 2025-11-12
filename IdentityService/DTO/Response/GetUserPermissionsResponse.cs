@@ -2,5 +2,5 @@
 
 namespace IdentityService.DTO.Request
 {
-    public record GetUserPermissionsResponse(List<Permission> userPermissions);
+    public record GetUserPermissionsResponse(List<Permission> UserPermissions);
 }

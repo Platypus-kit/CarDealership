@@ -1,4 +1,6 @@
-﻿namespace IdentityService.DTO.Request
+﻿using IdentityService.Domain.Entities;
+
+namespace IdentityService.DTO.Request
 {
-    public record GetRoleByIdResponse();
+    public record GetRoleByIdResponse(Role Role);
 }

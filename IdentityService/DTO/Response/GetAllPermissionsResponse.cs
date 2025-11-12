@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record GetAllPermissionsResponse();
+    public record GetAllPermissionsResponse(List<string> Names);
 }

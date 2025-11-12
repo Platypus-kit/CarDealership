@@ -2,5 +2,5 @@
 
 namespace IdentityService.DTO.Request
 {
-    public record RemoveRoleFromUserRequest(Guid UserId, Role userRole);
+    public record RemoveRoleFromUserRequest(Guid UserId, Role UserRole);
 }

@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record GetUserPermissionsRequest(Guid userid);
+    public record GetUserPermissionsRequest(Guid Userid);
 }

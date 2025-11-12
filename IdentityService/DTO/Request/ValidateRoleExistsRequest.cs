@@ -1,4 +1,4 @@
 ﻿namespace IdentityService.DTO.Request
 {
-    public record ValidateRoleExistsRequest();
+    public record ValidateRoleExistsRequest(Guid RoleId);
 }

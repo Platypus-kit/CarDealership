@@ -1,4 +1,6 @@
-﻿namespace IdentityService.DTO.Request
+﻿using IdentityService.Domain.Entities;
+
+namespace IdentityService.DTO.Request
 {
-    public record ValidatePermissionExistsResponse();
+    public record ValidatePermissionExistsResponse(Permission Permission);
 }

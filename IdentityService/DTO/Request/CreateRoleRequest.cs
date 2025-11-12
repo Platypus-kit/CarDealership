@@ -2,5 +2,5 @@
 
 namespace IdentityService.DTO.Request
 {
-    public record CreateRoleRequest(Role );
+    public record CreateRoleRequest(Role Role);
 }
