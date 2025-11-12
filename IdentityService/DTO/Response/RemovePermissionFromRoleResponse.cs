@@ -1,4 +1,0 @@
-﻿namespace IdentityService.DTO.Request
-{
-    public record RemovePermissionFromRoleResponse(bool IsApproved);
-}

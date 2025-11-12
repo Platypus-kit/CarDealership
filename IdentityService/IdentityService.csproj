@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <Folder Include="Config\" />
+    <Folder Include="DTO\Request\UserRequest\" />
+    <Folder Include="DTO\Response\UserRequest\" />
   </ItemGroup>
 
 </Project>
